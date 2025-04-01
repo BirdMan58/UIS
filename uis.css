@@ -14,10 +14,10 @@ header {
     background-color: #04AA6D;
     text-align: left;
     padding: 20px;
+    border-radius: 6px;
 }
 header h3 {
     color: white;
-    /*font-family:'Times New Roman', Times, serif;*/
     margin: 0;
 }
 form {
@@ -104,7 +104,7 @@ a {
 }
 a:hover {
     text-decoration: underline;
-    color: blue;
+    color: rgb(5, 59, 39);
 }
 table{
     width: 100%;
@@ -147,6 +147,9 @@ ul{
     }
     .pbutcon{
         display: inline;
+    }
+    footer{
+        padding: 80px;
     }
     
 }
@@ -207,5 +210,5 @@ hr{
     color: #303030;
 }
 footer{
-    padding: 40px;
+    padding: 100px;
 }

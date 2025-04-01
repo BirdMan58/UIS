@@ -10,6 +10,7 @@ if(isset($_SESSION['user_id'])) {
     <head>
         <title>Sign-in page</title>
         <link rel="stylesheet" href="uis.css">
+        <link rel="icon" type="image/x-icon" href="favicon.png">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
@@ -74,5 +75,8 @@ if(isset($_SESSION['user_id'])) {
                 return true;
             });
         </script>
+        <footer>
+            <p style="text-align: center;">Connect with us for updates, support, and more!<br><a href="mailto:joeljoju.cy23@jecc.ac.in" title="click to send mail">Contact us</a></p>
+        </footer>
     </body>
 </html>

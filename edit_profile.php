@@ -82,6 +82,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <head>
     <title>Edit Profile</title>
     <link rel="stylesheet" href="uis.css">
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
     <header>
@@ -137,5 +139,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <button onclick="location.href='uis.php'" class="button">Cancel</button>
         </div>
     </form>
+    <footer>
+        <p style="text-align: center;">Connect with us for updates, support, and more!<br><a href="mailto:joeljoju.cy23@jecc.ac.in" title="click to send mail">Contact us</a></p>
+    </footer>
 </body>
 </html>

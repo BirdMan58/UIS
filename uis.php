@@ -12,6 +12,7 @@ if(!isset($_SESSION['user_id'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UIS</title>
     <link rel="stylesheet" href="uis.css">
+    <link rel="icon" type="image/x-icon" href="favicon.png">
 </head>
 <body>
     <header>
