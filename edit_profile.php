@@ -98,7 +98,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <?php if($success): ?>
         <div class="success"><?php echo $success; ?></div>
     <?php endif; ?>
-
+    <div style="padding: 2%;"> 
     <form method="POST">
         <div class="form-group">
             <label>First Name:</label>
@@ -139,6 +139,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <button onclick="location.href='uis.php'" class="button">Cancel</button>
         </div>
     </form>
+    </div>
     <footer>
         <p style="text-align: center;">Connect with us for updates, support, and more!<br><a href="mailto:joeljoju.cy23@jecc.ac.in" title="click to send mail">Contact us</a></p>
     </footer>

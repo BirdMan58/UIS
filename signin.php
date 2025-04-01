@@ -31,7 +31,7 @@ if(isset($_SESSION['user_id'])) {
         <?php else: ?>
             <p class="error" style="display: none;">Error</p>
         <?php endif; ?>
-
+        <div style="padding: 2%;"> 
         <form id="regfom" action="register.php" method="POST">
             <b>Personal Details</b>
             <input type="text" placeholder="First name..." id="fname" name="fname" 
@@ -60,8 +60,8 @@ if(isset($_SESSION['user_id'])) {
                 <button type="submit">Create</button>
             </div>
         </form>
+        </div>
 
-        <!-- Add client-side password matching check -->
         <script>
             document.getElementById('regfom').addEventListener('submit', function(e) {
                 const passwd = document.getElementById('passwd').value;

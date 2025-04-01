@@ -58,7 +58,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <h3>Edit User</h3>
         <a style="color:white;" href="admin.php">← Back to Dashboard</a>
     </header>
-
+    <div style="padding: 2%;"> 
     <form method="POST">
         <div class="form-group">
             <label>First Name:</label>
@@ -91,6 +91,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <button onclick="location.href='admin.php'" class="button">Cancel</button>
         </div>
     </form>
+    </div>
     <footer>
         <p style="text-align: center;">Connect with us for updates, support, and more!<br><a href="mailto:joeljoju.cy23@jecc.ac.in" title="click to send mail">Contact us</a></p>
     </footer>

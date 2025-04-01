@@ -18,6 +18,7 @@ if(isset($_SESSION['user_id'])) {
         <header>
             <h3>User Identification System (UIS)</h3>
         </header>
+        <div style="padding: 5%;"> 
         <form class="login" action="login.php" method="POST">
             <label for="uname"><b>User Name</b></label><br>
             <input type="text" placeholder="Enter Username" id="uname" name="uname" required><br>
@@ -44,7 +45,7 @@ if(isset($_SESSION['user_id'])) {
             <br><button class="loginb" type="submit">Log in</button>
             
             <p>Don't have an account?, <a href="signin.php">Sign-in</a></p>
-        </form>
+        </form></div>
         <footer>
             <p style="text-align: center;">Connect with us for updates, support, and more!<br><a href="mailto:joeljoju.cy23@jecc.ac.in" title="click to send mail">Contact us</a></p>
         </footer>
